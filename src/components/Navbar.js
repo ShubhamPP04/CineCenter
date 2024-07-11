@@ -32,6 +32,7 @@ const Navbar = () => {
                 <NavLink
                   key={singleNavItem.providedLink}
                   to={singleNavItem.providedLink}
+                  className="hover:text-blue-300 transition-colors duration-300"
                 >
                   <li>{singleNavItem.title}</li>
                 </NavLink>
@@ -73,6 +74,7 @@ const Navbar = () => {
                 <NavLink
                   key={singleNavItem.providedLink}
                   to={singleNavItem.providedLink}
+                  className="hover:text-blue-300 transition-colors duration-300"
                 >
                   <li className="custom-minor-title py-4">
                     {singleNavItem.title}
